@@ -41,10 +41,10 @@ const (
 	INDEX    = "around" //const
 	TYPE     = "post"
 	DISTANCE = "200km"
-	// Needs to update
+	// google cloud const
 	PROJECT_ID  = "xxxx"
 	BT_INSTANCE = "xxxx"
-	// Needs to update this URL if you deploy it to cloud.
+	// URL for deployment on cloud.
 	ESURL       = "http://xxxx:9200" //esurl
 	BUCKET_NAME = "xxxx"
 )
