@@ -41,12 +41,12 @@ const (
 	INDEX    = "around" //const
 	TYPE     = "post"
 	DISTANCE = "200km"
-	// Needs to update
-	PROJECT_ID  = "around-1221-296222"
-	BT_INSTANCE = "around-post"
-	// Needs to update this URL if you deploy it to cloud.
-	ESURL       = "http://35.239.255.25:9200" //esurl
-	BUCKET_NAME = "post-image-1221"
+	// google cloud const
+	PROJECT_ID  = "xxxx"
+	BT_INSTANCE = "xxxx"
+	// URL for deployment on cloud.
+	ESURL       = "http://xxxx:9200" //esurl
+	BUCKET_NAME = "xxxx"
 )
 
 var mySigningKey = []byte("secret")
